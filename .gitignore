@@ -1,0 +1,83 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Environnements virtuels ===
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+env_old/
+
+# === Fichiers de configuration sensibles ===
+*.env
+instance/
+config.py
+config.json
+
+# === Logs & caches ===
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.DS_Store
+.cache/
+*.coverage
+htmlcov/
+
+# === IDE / éditeurs ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === Flask / Deployment ===
+*.pid
+*.seed
+*.pid.lock
+*.bak
+*.swp
+*.orig
+
+# === Distribution / packaging ===
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === Testing ===
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+nosetests.xml
+test-results/
+junit-*.xml
+
+# === Jupyter notebooks (optionnel) ===
+.ipynb_checkpoints
+
+# === Docker (si utilisé) ===
+*.pid
+*.tar
+*.log
+docker-compose.override.yml
+
+# === OS spécifiques ===
+Thumbs.db
+.DS_Store
