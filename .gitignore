@@ -6,7 +6,8 @@ __pycache__/
 # === Environnements virtuels ===
 venv/
 env/
-.venv/
+.env/
+flask_env
 ENV/
 env.bak/
 env_old/
