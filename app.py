@@ -1,14 +1,14 @@
 from flask import Flask
 from mongoengine import connect
 # from routes.task_routes import tasks_bp
-from routes.agent_ai_router import auth_bp
+from routers.ai_agent_router import agentAI_bp
 import certifi
 import os
 
 
 app = Flask(__name__)
 # app.register_blueprint(tasks_bp, url_prefix="/tasks")
-app.register_blueprint(auth_bp, url_prefix="/")
+app.register_blueprint(agentAI_bp, url_prefix="/")
 user_name=os.getenv("User_name")
 password=os.getenv("Password")
 if __name__ == "__main__":
